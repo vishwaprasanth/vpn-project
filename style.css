@@ -1,0 +1,820 @@
+.container{
+    margin: 0 50px;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color:  white;
+    z-index: 1;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 45px;
+}
+
+.logotext{
+    font-weight: bold;
+    position: relative;
+    top: 12px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    color: #4F5665;
+    cursor: pointer;
+}
+
+.hash{
+    display: none;
+}
+
+.SignIn{
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color:white;
+    border:  1px solid white;
+    cursor: pointer;
+}
+
+.SignUp{
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: red;
+    background-color:white;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.homescreen{
+    display: flex;
+    margin: 40px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.Lefthome{
+    width: 50%;
+    margin: 0 100px;
+}
+
+.heading{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.subheading{
+    color: #4F5665;
+}
+
+.homebutton{
+    margin-top: 30px;
+    width: 120px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.homebutton:hover{
+        color: black;
+        background-color: royalblue;
+        cursor: pointer;
+}
+
+.Righthome{
+    width: 50%;
+}
+
+.homeimage{
+    width: 75%;
+}
+
+.homepattern{
+    width: 100%;
+    display: flex;
+    box-shadow: 0 3px 10px  rgb(0 0 0 /0.2);
+}
+
+.pattern1{
+    width: 33%;
+    padding: 45px 35px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.homepattern span{
+    width: 1px;
+    height: 80px;
+    background-color: #EEEFF2;
+    margin: 25px 0;
+}
+
+.p1img{
+    width: 35px;
+    height: 35px;
+}
+
+.p1content1{
+    font-weight: bold;
+}
+
+.p1content2{
+    color: #4F5665;
+}
+
+.featurescreen{
+    margin: 30px 0;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.leftfeature{
+    width: 50%;
+}
+
+.leftfeature img{
+    width: 50%;
+    margin: 0 100px;
+}
+
+.heading2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.subheading{
+    
+}
+
+.rightfeature{
+    width: 50%;
+}
+
+.rightfeature ol{
+    list-style: none;
+    margin-left: -40px;
+}
+
+.rightfeature img{
+    width: 12px;
+    padding-right: 5px;
+}
+
+.planscreen{
+    margin-top: 10px;
+}
+
+.planheading{
+    text-align: center;
+    font-size: 35px;
+}
+
+.plansubheading{
+    text-align: center;
+    color: #4F5665;
+}
+
+.plancontainer{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.plan{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+    min-height: 500px;
+    position: relative;
+    border: 1px solid #4F5665;
+    border-radius: 5px;
+}
+
+.planimage{
+    width: 100px;
+}
+
+.plantext{
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.plan ol{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.plan li{
+    line-height: 25px;
+    color: #4F5665;
+}
+
+.plan img{
+    padding-right: 10px;
+}
+
+.plancost{
+    /* position: absolute;
+    bottom: 50px; */
+    font-weight: bold;
+}
+
+.plancost span{
+    color: #4F5665;
+    font-weight: none;
+}
+
+.planbutton{
+    color: red;
+    border: 2px solid red;
+    padding: 5px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.activeplan{
+    border: 1px solid red;
+}
+
+.activeplanbutton{
+    background-color: red;
+    color: white;
+}
+
+.networkscreen{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.netHeading{
+    font-size: 30px;
+}
+
+.netSubHeading{
+    color:#4F5665;
+    padding: 10px 0 50px 0;
+}
+
+.worldmap, .sponsor{
+    width: 75%;
+}
+
+.reviewsScreen{
+    text-align: center;
+}
+
+.cards{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 300px;
+    padding: 20px;
+    margin: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.cardinfo{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.userrating{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.subscribe{
+    padding: 30px;
+    box-shadow: 0 3px 10px  rgb(0 0 0 /0.2);
+    position: relative;
+}
+
+.Subscribeheading{
+    font-size: 35px;
+    width: 60%;
+    margin: 15px 0;
+}
+.SubscribeBtn{
+    position: absolute;
+    text-align: center;
+    right: 10%;
+    top: 35%;
+    background-color: red;
+    display: flex;
+    color: white;
+    padding: 15px 16px 15px 55px;
+    width: 150px;
+    border-radius: 5px; 
+}
+
+.SubscribeBtn:hover{
+    color: black;
+    background-color: royalblue;
+    cursor: pointer;
+}
+
+.footer{
+    margin: 30px 10px;
+    box-flex-group: #f8f8f8;
+    position: relative;
+}
+
+.details{
+    width: 30%;
+    margin: 35px 0;
+}
+.footermenu{
+    display: flex;
+    position: absolute;
+    margin-top: -35px;
+    top: 0;
+    right: 0;
+    justify-content: space-between;
+}
+
+.product{
+    margin: 20px;
+}
+
+.product ol li{
+    list-style: none;
+    line-height: 30px;
+}
+
+.footertitle{
+    font-weight: bold;
+    color: black;
+}
+
+.socialicons img{
+    cursor: pointer;
+    margin-left: -15px;
+}
+/* 
+@media only screen and (max-width: 600px){
+    .header{
+        display: none;
+    }
+
+    .homescreen{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Lefthome, .Righthome{
+        width: 100%;
+        margin: auto;
+    }
+
+    .homepattern{
+        flex-direction: column;
+    }
+
+    .homepattern span{
+        margin: 0 30px;
+        width: 80%;
+        height: 1px;
+
+    }
+} */
+@media only screen and (max-width: 768px){
+    .header{
+        font-size: 25px;
+        gap: 15px;
+    }
+    .logo img{
+        width: 40px;
+    }
+    .logotext{
+        font-size: 22px;
+    }
+    .menu ul{
+        display: none;
+    }
+    .hash{
+        display: block;
+        font-weight: bold;
+    }
+    .SignIn{
+        padding: 5px 8px;
+    }
+    .homescreen{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Lefthome{
+        width: 100%;
+        height: 50%;
+    }
+    .heading{
+            margin: 5% 0 0 0;
+            font-size: 65px;
+            font-weight: 600;
+    }
+    .subheading{
+        margin: 20px 0;
+        font-size: 30px;
+    }
+    .homebutton{
+        font-size: 30px;
+        width: 300px;
+        margin: 5% 20%;
+    }
+    .Righthome{
+        width: 100%;
+    
+    }
+    .homeimage{
+        width: 100%;
+        height: 50%;
+    }
+    .pattern1{
+        width: 33%;
+        padding: 35px;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        align-items: center;
+    }
+    .homepattern{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .homepattern span{
+        width: 210px;
+        height: 1px;
+    }
+    .featurescreen{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .leftfeature{
+        width: 100%;
+        height: 50%;
+    }
+    .leftfeature img{
+        width: 100%;
+        margin: 0;
+    }
+    .rightfeature{
+        width: 100%;
+        height: 50%;
+    }
+    .heading2{
+        font-weight: bold;
+        font-size: 45px;
+        align-items: center;
+    }
+    .subheading{
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .plancontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .netHeading{
+        font-size: 25px;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+    }
+    .subscribe{
+        padding: 20px;
+        box-shadow: 0 3px 10px  rgb(0 0 0 /0.2);
+        position: relative;
+    }
+    .Subscribeheading{
+        font-size: 35px;
+        width: 60%;
+        margin: 15px 0;
+    }
+    .SubscribeBtn{
+        position: absolute;
+        text-align: center;
+        right: 10%;
+        top: 45%;
+        padding: 10px 13px 10px 25px;
+        width: 120px;
+    }
+    .footermenu{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+/* 500px */
+@media only screen and (max-width:500px) {
+    .header{
+        font-size: 20px;
+        gap: 10px;
+    }
+    .logo img{
+        width: 30px;
+    }
+    .logotext{
+        font-size: 15px;
+    }
+    .SignIn{
+        font-size: 12px;
+        padding: 3px 6px;
+    }
+    .SignUp{
+        font-size: 12px;
+        padding: 3px 6px;
+    }
+    .Lefthome{
+        width: 100%;
+        height: 50%;
+    }
+    .heading{
+            font-size: 45px;
+            font-weight: 500;
+    }
+    .subheading{
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    .homebutton{
+        font-size: 15px;
+        width: 150px;
+        margin: 5% 20%;
+    }
+    .Righthome{
+        width: 100%;
+    
+    }
+    .homeimage{
+        margin: 10% 0;
+        width: 100%;
+        height: 50%;
+    }
+    .pattern1{
+        width: 33%;
+        padding: 35px;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        align-items: center;
+        }
+        .homepattern{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .homepattern span{
+            width: 190px;
+            height: 1px;
+        }
+        .featurescreen{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .leftfeature{
+            width: 100%;
+            height: 50%;
+        }
+        .leftfeature img{
+            width: 100%;
+            margin: 0;
+        }
+        .rightfeature{
+            width: 100%;
+            height: 50%;
+        }
+        .heading2{
+            font-weight: bold;
+            font-size: 35px;
+            align-items: center;
+        }
+        .subheading{
+            margin: 20px 0;
+            font-size: 20px;
+        }
+        .plan{
+            padding: 10px;
+        }
+        .planimage{
+            width: 80px;
+        }
+        .planbutton{
+            padding: 5px 30px;
+        }
+        .networkscreen{
+
+        }
+        .netHeading{
+        font-size: 20px;
+        }
+        .Subscribeheading{
+            font-size: 35px;
+            width: 40%;
+            margin: 15px 0;
+        }
+        .SubscribeBtn{
+            right: 10%;
+            top: 45%;
+            padding: 8px 13px 8px 15px;
+            width: 100px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+/* 400px */
+@media only screen and (max-width:400px){
+    .header{
+        font-size: 25px;
+    }
+    .logo img{
+        width: 30px;
+    }
+    .logotext{
+        font-size: 15px;
+    }
+    .hash{
+        font-weight: bold;
+    }
+    .SignIn{
+        display: none;
+    }
+    .SignUp{
+        display: none;
+    }
+    .Lefthome{
+        width: 100%;
+    }
+    .heading{
+        font-size: 35px;
+        font-weight: 400;
+        font-weight: bold;
+    }
+    .subheading{
+    margin: 20px 0;
+    font-size: 22px;
+    }      
+    .homebutton{
+        margin: 0 20%;
+    }
+    .Righthome{
+        width: 100%;
+    }
+    .homeimage{
+        width: 100%;
+    }
+    .Lefthome{
+        width: 100%;
+        height: 50%;
+    }
+    .homebutton{
+        font-size: 20px;
+        width: 150px;
+        margin: 5% 20%;
+    }
+    .pattern1{
+        width: 33%;
+        padding: 35px;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        align-items: center;
+        }
+        .homepattern{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .homepattern span{
+            width: 150px;
+            height: 1px;
+        }
+        .featurescreen{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .leftfeature{
+            width: 100%;
+            height: 50%;
+        }
+        .leftfeature img{
+            width: 100%;
+            margin: 0;
+        }
+        .rightfeature{
+            width: 100%;
+            height: 50%;
+        }
+        .heading2{
+            font-weight: bold;
+            font-size: 35px;
+            align-items: center;
+        }
+        .subheading{
+            margin: 20px 0;
+            font-size: 20px;
+        }
+        .planheading{
+            text-align: center;
+            font-size: 35px;
+        }
+        .plan{
+            padding: 5px;
+        }
+        .planimage{
+            width: 60px;
+        }
+        .planbutton{
+            padding: 5px 20px;
+        }
+        .netHeading{
+            font-size: 15px;
+        }
+        .netHeading{
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .Subscribeheading{
+            font-size: 10px;
+            width: 30%;
+            margin: 10px 0;
+        }
+        .SubscribeBtn{
+            right: 10%;
+            top: 45%;
+            padding: 8px 13px 8px 15px;
+            width: 100px;
+        }
+    }
+        
+
+
+
+
+
+
+}
